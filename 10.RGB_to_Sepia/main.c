@@ -4,7 +4,7 @@
 
 int main()
 {
-    FILE* fIn = fopen("fruits.bmp","rb");
+    FILE* fIn = fopen("fruits_blur.bmp","rb");
     FILE* fOut = fopen("fruits_sepia.bmp","wb");
 
     unsigned char imgHeader[54];
